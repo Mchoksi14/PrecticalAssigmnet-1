@@ -1,0 +1,22 @@
+{
+  "name": "precticals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "script1": "node script1.js",
+    "script2": "node script2.js",
+    "script3": "node script3.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "archiver": "^5.3.1",
+    "node-fetch": "^3.3.2",
+    "node-static": "^0.7.11"
+  }
+}
