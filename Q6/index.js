@@ -8,7 +8,7 @@ function extractZip(zipFilePath, destinationFolder) {
   console.log(`Zip file '${zipFilePath}' extracted to '${destinationFolder}'.`);
 }
 
-const zipFilePath = '../Q5/Html Zip'; // Replace this with the path of your zip file
-const destinationFolder = '../Q6/ExtractFolderZip'; // Replace this with the folder where you want to extract the files
+const zipFilePath = '../Q5/Create Zip SuccessFully !!!..'; 
+const destinationFolder = '../Q6/ExtractFolderZip'; 
 
 extractZip(zipFilePath, destinationFolder);

@@ -24,7 +24,7 @@ function createZip(folderPath, zipFilename) {
   archive.finalize();
 }
 
-const folderToCompress = '../Q1'; // Replace this with the actual folder path
-const zipFileName = 'Create Zip SuccessFully !!!..'; // Replace this with the desired zip file name
+const folderToCompress = '../Q2'; 
+const zipFileName = 'Create Zip SuccessFully !!!..'; 
 
 createZip(folderToCompress, zipFileName);

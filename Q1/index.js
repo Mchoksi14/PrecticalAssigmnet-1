@@ -24,15 +24,13 @@ var server = http.createServer(function (req, res) {
         //req.on("data",chunk=>{} )
         req.on('data', chunk => {
             console.log(chunk);
-            body += chunk.toString(); // convert Buffer to string
+            body += chunk.toString(); 
         });
         req.on('end', () => {
             console.log(body);
-            res.end('ok  => ' + body);
-            //fname=vibha&age=25
+            res.end('OutPut Post   => ' + body);
         });
     }
-    //request.
 
 
 
